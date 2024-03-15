@@ -25,21 +25,21 @@ describe('chooseWord()', () => {
     expect(output).toEqual('No word available, try again');
   });
 
-  it('filters out 3 letter words with letters that are unique and returns string "No word available, try again"', () => {
-    const wordArray = ['dog', 'cat'];
-    const wordLength = 3;
+  it('returns a 6 letter word that is not unique (has the same letter more than once)', () => {
+    const wordArray = ['cat', 'tiger', 'rabbit'];
+    const wordLength = 6;
     const uniqueLetters = false;
     const output = chooseWord(wordArray, wordLength, uniqueLetters);
 
-    expect(output).toEqual('No word available, try again');
+    expect(output).toEqual('rabbit');
   });
 
-  it('returns a 3 letter word that is unique', () => {
-    const wordArray = ['dog', 'gibbon', 'rabbit'];
-    const wordLength = 3;
+  it('returns a 6 letter word that is unique (only uses the same letter once)', () => {
+    const wordArray = ['lizard', 'gibbon', 'rabbit'];
+    const wordLength = 6;
     const uniqueLetters = true;
     const output = chooseWord(wordArray, wordLength, uniqueLetters);
 
-    expect(output).toEqual('dog');
+    expect(output).toEqual('lizard');
   });
 });

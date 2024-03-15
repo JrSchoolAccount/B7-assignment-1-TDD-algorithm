@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1710514712768" clover="3.2.0">
-  <project timestamp="1710514712768" name="All files">
-    <metrics statements="22" coveredstatements="22" conditionals="10" coveredconditionals="10" methods="11" coveredmethods="11" elements="43" coveredelements="43" complexity="0" loc="22" ncloc="22" packages="1" files="2" classes="2"/>
+<coverage generated="1710529728570" clover="3.2.0">
+  <project timestamp="1710529728570" name="All files">
+    <metrics statements="24" coveredstatements="24" conditionals="10" coveredconditionals="10" methods="10" coveredmethods="10" elements="44" coveredelements="44" complexity="0" loc="24" ncloc="24" packages="1" files="2" classes="2"/>
     <file name="chooseWord.js" path="/Users/maclaptop/Desktop/Vscode/B7-assignment-1-TDD-algorithm/chooseWord.js">
-      <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
-      <line num="2" count="10" type="stmt"/>
-      <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="10" count="6" type="stmt"/>
-      <line num="12" count="6" type="stmt"/>
-      <line num="13" count="21" type="cond" truecount="2" falsecount="0"/>
-      <line num="14" count="18" type="stmt"/>
-      <line num="17" count="3" type="stmt"/>
-      <line num="21" count="5" type="stmt"/>
-      <line num="23" count="5" type="stmt"/>
+      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+      <line num="2" count="11" type="stmt"/>
+      <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="14" count="5" type="stmt"/>
+      <line num="16" count="5" type="stmt"/>
+      <line num="17" count="22" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="18" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="25" count="5" type="stmt"/>
       <line num="27" count="5" type="stmt"/>
-      <line num="29" count="5" type="stmt"/>
       <line num="31" count="5" type="stmt"/>
-      <line num="33" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="33" count="5" type="stmt"/>
+      <line num="35" count="5" type="stmt"/>
+      <line num="37" count="5" type="cond" truecount="2" falsecount="0"/>
     </file>
     <file name="compareWords.js" path="/Users/maclaptop/Desktop/Vscode/B7-assignment-1-TDD-algorithm/compareWords.js">
       <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>

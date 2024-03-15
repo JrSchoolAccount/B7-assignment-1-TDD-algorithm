@@ -2,8 +2,12 @@ function filterWordsByLength(array, length) {
   return array.filter((word) => word.length === length);
 }
 
-function filterWordsByUniqueLetters(array, uniqueWords) {
-  return array.filter((word) => (uniqueWords ? hasUniqueLetters(word) : !hasUniqueLetters(word)));
+function filterWordsByUniqueLetters(array, uniqueLetters) {
+  if (uniqueLetters) {
+    return array.filter(hasUniqueLetters);
+  } else {
+    return array;
+  }
 }
 
 function hasUniqueLetters(word) {
