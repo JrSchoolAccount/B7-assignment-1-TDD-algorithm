@@ -33,4 +33,15 @@ describe('compareWords()', () => {
       { letter: 'c', result: 'misplaced' },
     ]);
   });
+
+  it('compares the word "hallå" with "cykla", then returns an array', () => {
+    const output = compareWord('hallå', 'cykla');
+    expect(output).toEqual([
+      { letter: 'h', result: 'incorrect' },
+      { letter: 'a', result: 'misplaced' },
+      { letter: 'l', result: 'misplaced' },
+      { letter: 'l', result: 'correct' },
+      { letter: 'å', result: 'incorrect' },
+    ]);
+  });
 });

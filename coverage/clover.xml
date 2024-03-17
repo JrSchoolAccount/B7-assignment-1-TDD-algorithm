@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1710529728570" clover="3.2.0">
-  <project timestamp="1710529728570" name="All files">
-    <metrics statements="24" coveredstatements="24" conditionals="10" coveredconditionals="10" methods="10" coveredmethods="10" elements="44" coveredelements="44" complexity="0" loc="24" ncloc="24" packages="1" files="2" classes="2"/>
+<coverage generated="1710707076086" clover="3.2.0">
+  <project timestamp="1710707076086" name="All files">
+    <metrics statements="30" coveredstatements="30" conditionals="12" coveredconditionals="12" methods="10" coveredmethods="10" elements="52" coveredelements="52" complexity="0" loc="30" ncloc="30" packages="1" files="2" classes="2"/>
     <file name="chooseWord.js" path="/Users/maclaptop/Desktop/Vscode/B7-assignment-1-TDD-algorithm/chooseWord.js">
       <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
       <line num="2" count="11" type="stmt"/>
@@ -21,16 +21,22 @@
       <line num="37" count="5" type="cond" truecount="2" falsecount="0"/>
     </file>
     <file name="compareWords.js" path="/Users/maclaptop/Desktop/Vscode/B7-assignment-1-TDD-algorithm/compareWords.js">
-      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
-      <line num="2" count="8" type="stmt"/>
-      <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="10" count="4" type="stmt"/>
-      <line num="11" count="4" type="stmt"/>
-      <line num="12" count="4" type="stmt"/>
-      <line num="14" count="4" type="stmt"/>
-      <line num="15" count="9" type="cond" truecount="2" falsecount="0"/>
-      <line num="16" count="9" type="stmt"/>
-      <line num="19" count="4" type="stmt"/>
+      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <line num="2" count="10" type="stmt"/>
+      <line num="6" count="10" type="stmt"/>
+      <line num="7" count="10" type="cond" truecount="4" falsecount="0"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="12" count="5" type="stmt"/>
+      <line num="16" count="5" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="19" count="5" type="stmt"/>
+      <line num="21" count="5" type="stmt"/>
+      <line num="22" count="14" type="stmt"/>
+      <line num="23" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="14" type="stmt"/>
+      <line num="27" count="5" type="stmt"/>
     </file>
   </project>
 </coverage>
