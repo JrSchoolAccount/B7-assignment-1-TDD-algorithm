@@ -39,7 +39,7 @@ describe('compareWords()', () => {
     expect(output).toEqual([
       { letter: 'h', result: 'incorrect' },
       { letter: 'a', result: 'misplaced' },
-      { letter: 'l', result: 'misplaced' },
+      { letter: 'l', result: 'incorrect' },
       { letter: 'l', result: 'correct' },
       { letter: 'å', result: 'incorrect' },
     ]);
