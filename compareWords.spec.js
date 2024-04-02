@@ -25,7 +25,7 @@ describe('compareWords()', () => {
     ]);
   });
 
-  it('returns an array of letter objects with "letter" and "result: incorrect"', () => {
+  it('returns an array of letter objects with "letter" and "result: misplaced"', () => {
     const output = compareWord('abc', 'cab');
     expect(output).toEqual([
       { letter: 'a', result: 'misplaced' },
