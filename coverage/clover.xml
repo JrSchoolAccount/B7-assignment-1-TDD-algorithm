@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1710707076086" clover="3.2.0">
-  <project timestamp="1710707076086" name="All files">
-    <metrics statements="30" coveredstatements="30" conditionals="12" coveredconditionals="12" methods="10" coveredmethods="10" elements="52" coveredelements="52" complexity="0" loc="30" ncloc="30" packages="1" files="2" classes="2"/>
+<coverage generated="1712137026861" clover="3.2.0">
+  <project timestamp="1712137026861" name="All files">
+    <metrics statements="37" coveredstatements="37" conditionals="18" coveredconditionals="18" methods="13" coveredmethods="13" elements="68" coveredelements="68" complexity="0" loc="37" ncloc="37" packages="1" files="2" classes="2"/>
     <file name="chooseWord.js" path="/Users/maclaptop/Desktop/Vscode/B7-assignment-1-TDD-algorithm/chooseWord.js">
       <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
       <line num="2" count="11" type="stmt"/>
@@ -21,7 +21,7 @@
       <line num="37" count="5" type="cond" truecount="2" falsecount="0"/>
     </file>
     <file name="compareWords.js" path="/Users/maclaptop/Desktop/Vscode/B7-assignment-1-TDD-algorithm/compareWords.js">
-      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <metrics statements="22" coveredstatements="22" conditionals="12" coveredconditionals="12" methods="7" coveredmethods="7"/>
       <line num="2" count="10" type="stmt"/>
       <line num="6" count="10" type="stmt"/>
       <line num="7" count="10" type="cond" truecount="4" falsecount="0"/>
@@ -29,14 +29,21 @@
       <line num="10" count="5" type="stmt"/>
       <line num="12" count="5" type="stmt"/>
       <line num="16" count="5" type="stmt"/>
-      <line num="17" count="5" type="stmt"/>
+      <line num="17" count="14" type="cond" truecount="2" falsecount="0"/>
       <line num="18" count="5" type="stmt"/>
-      <line num="19" count="5" type="stmt"/>
-      <line num="21" count="5" type="stmt"/>
-      <line num="22" count="14" type="stmt"/>
-      <line num="23" count="14" type="cond" truecount="2" falsecount="0"/>
-      <line num="24" count="14" type="stmt"/>
-      <line num="27" count="5" type="stmt"/>
+      <line num="19" count="19" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="30" count="5" type="stmt"/>
+      <line num="31" count="5" type="stmt"/>
+      <line num="32" count="5" type="stmt"/>
+      <line num="33" count="5" type="stmt"/>
+      <line num="35" count="5" type="stmt"/>
+      <line num="36" count="14" type="stmt"/>
+      <line num="37" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="39" count="14" type="stmt"/>
+      <line num="42" count="5" type="stmt"/>
+      <line num="44" count="5" type="stmt"/>
     </file>
   </project>
 </coverage>
